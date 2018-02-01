@@ -1,0 +1,228 @@
+#item {
+	/*background-color: #D7EEE1;*/
+	color: white;
+	padding: 16px;
+	/*font-size: 16px;*/
+	border: none;
+	cursor: pointer;
+
+}
+
+#item a{
+	/*background-color: #D7EEE1;*/
+	color: white;
+	padding: 16px;
+	/*font-size: 16px;*/
+	border: none;
+	cursor: pointer;
+	display:none;
+	text-decoration: none;
+
+}
+
+#item1 {
+	/*background-color: #D7EEE1;*/
+	color: white;
+	padding: 16px;
+	/*font-size: 16px;*/
+	border: none;
+	cursor: pointer;
+
+}
+
+#item1 a{
+	/*background-color: #D7EEE1;*/
+	color: white;
+	padding: 16px;
+	/*font-size: 16px;*/
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+#item1 a:hover{
+	/*background-color: #D7EEE1;*/
+	color: black;
+}
+
+#item:hover, #item:focus {
+	color: black;
+	background-color: #efebe9;
+}
+
+#item1:hover, #item1:focus {
+	color: black;
+	background-color: #efebe9;
+}
+
+.menu {
+	position: relative;
+	display: inline-block;
+}
+.menu1 {
+	position: relative;
+	display: inline-block;
+}
+
+
+#submenu {
+	display:none;
+	position: absolute;
+	/*background-color: #37474F;*/
+	background-color: #424242;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	cursor: pointer;
+	color: white;
+
+}
+
+.i-am-centered { margin: auto; max-width: 1000px;}
+
+#submenu a {
+	
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#submenu a:hover {
+	/*background-color: #BDBDBD;*/
+	background-color: #efebe9;
+	color: black;
+}
+
+
+ #time {
+ 	text-decoration: none;
+ 	float: right;
+	font-size: 16px;
+	padding: 16px;
+	/*font-size: 16px;*/
+	border: none;
+	display: block;
+	color: white;
+ }
+
+.odstep{
+    background-color: #424242 !important;
+    border-color: #424242;
+    border-radius: 0;
+    height: 3px;
+}
+.odstep2{
+
+    height: 30px;
+}
+.dol{
+
+    height: 100px;
+    background-color: #424242 !important;
+    color: white;
+}
+
+.gora{
+    height: 88px;
+    color: black;
+    background-image: url("/baner.png"); 
+}
+.navbar .navbar-static-top{
+    background-color: #424242 !important;
+    border-color: #424242;
+    border-radius: 0;
+    height: 54px;
+    margin-bottom: 0;
+}
+
+.navbar-static-top{
+    background-color: #424242 !important;
+    border-color: #424242;
+    border-radius: 0;
+    height: 54px;
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #424242 !important;
+    border-color: #424242;
+    border-radius: 0;
+    height: 54px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #424242;
+    color: balck;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    background-color: #424242;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #424242;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #424242;
+}
+
+.navbar-default .navbar-text {
+    color: #FFF;
+    background-color: #424242;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #424242;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #424242;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #424242;
+}
+
+
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #476b6b; // use your own color here
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #476b6b;
+    border-color: green;
+}
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}
+
+.btn-info:active {
+	    background-color: #8064A2;
+    border-color: #8064A2;
+}

@@ -1,0 +1,294 @@
+body {
+    /*background-color: #E5F3EE;*/
+    /*font-family: 'Tahoma', sans-serif !important;*/
+    background-color: #eceff1;
+}
+
+p.czarny {
+	padding: 0.5em;
+	color : #000;
+}
+
+p.czarny-noformat {
+	color : #000;
+}
+
+.panel-custom-kolor {
+    
+    background: inherit; 
+}
+.panel-custom-kolor > .panel-heading {
+    background: #a3c2c2; 
+    color: #ffffff;
+    border-color: #a3c2c2;
+    width: 100%;
+}
+
+
+p.czarny-odstep_od_gory{
+	margin-top: 0px;
+}
+
+/* Pokazywanie panelu dodatkowegi */
+#panel, #flip {
+    padding: 20px;
+    text-align: center;
+    /*background-color: #e5eecc;
+    border: solid 1px #c3c3c3;*/
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+/* Pokazywanie panelu dodatkowegi */
+
+
+
+/* RESPONSYWNA TABELKA */
+.rg-container {
+	font-size: 15px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0.5em;
+	color: #777;
+}
+.rg-header {
+	margin-bottom: 1em;
+	text-align: left;
+	background-color: #556677;
+}
+
+.rg-header > * {
+	display: block;
+	background-color: #556677;
+}
+.rg-hed {
+	font-weight: bold;
+	font-size: 1.4em;
+	background-color: #556677;
+}
+.rg-dek {
+	font-size: 1em;
+}
+
+.rg-source {
+	margin: 0;
+	font-size: 0.75em;
+	text-align: left;
+}
+.rg-source .pre-colon {
+	text-transform: uppercase;
+}
+
+.rg-source .post-colon {
+	font-weight: bold;
+}
+
+/* table */
+table.rg-table {
+	width: 100%;
+	margin-bottom: 0.5em;
+	font-size: 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table.rg-table tr {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: #333;
+}
+table.rg-table thead {
+	border-bottom: 1px solid #ccc;
+	background-color: #FFF;
+}
+table.rg-table tr {
+	border-bottom: 0px solid #ccc;
+	color: #222;
+
+}
+table.rg-table tr.highlight {
+	/*background-color: #dcf1f0 !important;*/
+	background-color: #123456 !important
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background-color: #ffffff;
+
+}
+table.rg-table th {
+	font-weight: normal;
+	padding: 0.5em;
+	font-size: 0.9em;
+			border: 1px;
+		border-color: #DDDDDD #DDDDDD;
+	border-style: solid;
+	/*background-color: #e9efeb;*/
+	background-color: #546e7a;
+	color: white;
+}
+
+table.rg-table td {
+	padding: 0.35em;
+	font-size: 0.9em;
+	border: 1px;
+	border-color: #DDDDDD #DDDDDD;
+	border-style: solid;
+}
+
+table.rg-table.zebra tr:hover {
+	/*background: #FFE9A0;*/
+	background: #FFFFE2;
+}
+
+table.rg-table tr:hover {
+	/*background: #FFE9A0;*/
+	background: #FFFFE2;
+}
+
+table.rg-table .highlight td {
+	font-weight: bold;
+}
+table.rg-table th.number, td.number {
+	text-align: right;
+}
+
+/* media queries */
+@media screen and (max-width: 800px) {
+.rg-container {
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+table.rg-table {
+	width: 100%;
+}
+table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
+	display: none;
+	
+
+
+
+
+}
+table.rg-table thead {
+	display: none;
+	background-color: #223344;
+
+}
+table.rg-table tbody {
+	width: 100%;
+		font-size: 18px;
+
+}
+table.rg-table tr, table.rg-table th, table.rg-table td {
+	display: block;
+	padding: 0;
+	border: 0px;
+	margin-bottom: 15px;
+
+
+}
+table.rg-table tr {
+	border-bottom: none;
+	margin: 0 0 2em 0;
+	padding: 0em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: #eeeeee;
+
+
+}
+table.rg-table tr.highlight {
+
+	background-color: #eeeeee;
+
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background-color: #eeeeee;
+
+}
+table.rg-table.zebra td:nth-child(even) {
+	background-color: #eeeeee;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+table.rg-table tr:nth-child(even) {
+	background-color: #eeeeee;
+
+}
+table.rg-table td {
+	padding: 0.5em 0 0.25em 0;
+	border-bottom: 1px dotted #999;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #eeeeee;
+
+}
+table.rg-table td[data-title]:before {
+	content: attr(data-title);
+	font-weight: bold;
+	display: inline-block;
+	content: attr(data-title);
+	float: left;
+	margin-left: 0.5em;
+	font-size: 0.95em;
+
+}
+table.rg-table td:last-child {
+	padding-right: 1;
+	border-bottom: 0px solid #999;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+table.rg-table td:empty {
+	display: none;
+
+}
+table.rg-table .highlight td {
+	background-color: #eeeeee;
+	font-weight: normal;
+
+}
+
+		td:nth-of-type(1):before {  content:"Nr. rejestracyjny polowania: \A";
+  white-space: pre; }
+
+		td:nth-of-type(2):before { content: "Nazwa użytkownika rejestrujacego polowanie: \A";
+  white-space: pre; }
+		td:nth-of-type(3):before { content: "Numer autoryzacji: \A";
+  white-space: pre; }
+		td:nth-of-type(4):before { content: "Miejsce polowania: \A";
+  white-space: pre; }
+		td:nth-of-type(5):before { content: "Data - poczatek polowania: \A";
+  white-space: pre; }
+		td:nth-of-type(6):before { content: "Data - koniec polowania: \A";
+  white-space: pre; }
+		td:nth-of-type(7):before { content: "Podpis użytkonika - początek polowania: \A";
+  white-space: pre; }
+		td:nth-of-type(8):before { content: "Podpis użytkonika - koniec polowania: \A";
+  white-space: pre; }
+		td:nth-of-type(9):before { content: "Ilość strzałów: \A";
+  white-space: pre; }
+		td:nth-of-type(10):before { content: "Stan polowania: \A";
+  white-space: pre; }
+
+
+                  <th class='text '>Nr. Rejestr.</th>
+                <th class='text '>Nazwa użytkownika </br> rejestrującego polowanie</th>           
+                <th class='text '>Numer autoryzacji</th>
+                <th class='text '>Miejsce polowania</th>
+                <th class='text '>Data - poczatek polowania</th>
+                <th class='text '>Data - koniec polowania</th>
+                <th class='text '>Podpis użytkonika - początek polowania</th>                
+                <th class='text '>Podpis użytkonika - koniec polowania</th>
+                <th class='text '>Ilość strzałów</th>
+                <th class='text '>Stan polowania</th>
+
+/* RESPONSYWNA TABELKA SZABLON - KONIEC*/
